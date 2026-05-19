@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="main-container">
+        <h1 id="title">Tic-Tac-Toe</h1>
+                <!-- choices for the user to select -->
+        <div class="choices">
+             <p>Choose Your Symbol:</p>
+            <button class="symbol-btn" id="zero">O</button>
+            <button class="symbol-btn" id="cross">X</button>
+        </div> 
+
+        <!-- game board -->
+         <div class="board">
+            <div class="row1">
+                <button type="button" class="cell" id="r1c1"></button>
+                <button type="button" class="cell" id="r1c2"></button>
+                <button type="button" class="cell" id="r1c3"></button>
+            </div>
+            <div class="row2">
+                <button type="button" class="cell" id="r2c1"></button>
+                <button type="button" class="cell" id="r2c2"></button>
+                <button type="button" class="cell" id="r2c3"></button>
+            </div>
+            <div class="row3">
+                <button type="button" class="cell" id="r3c1"></button>
+                <button type="button" class="cell" id="r3c2"></button>
+                <button type="button" class="cell" id="r3c3"></button>
+            </div>
+         </div>
+        <!-- Declare the winner -->
+         <div class="result">
+            <p id="winner">Choose your symbol to start</p>
+        </div>
+
+         <button id="reset">Reset Game</button> 
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
