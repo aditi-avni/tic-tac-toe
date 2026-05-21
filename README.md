@@ -56,7 +56,7 @@ This project was created to practice JavaScript concepts like DOM manipulation, 
 * Add sound effects
 * Add dark mode
 * Improve mobile responsiveness
-* Add multiplayer mode
+* Add "play with computer" option
 
 ---
 
