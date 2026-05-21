@@ -62,4 +62,4 @@ This project was created to practice JavaScript concepts like DOM manipulation, 
 
 ## Live Demo
 
-[https://aditi-avni.github.io/Tic-Tac-Toe]
+[https://aditi-avni.github.io/tic-tac-toe/]
